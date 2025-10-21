@@ -5,58 +5,7 @@ A personal portfolio website to showcase my skills and projects.
 
 A simple yet effective way to present my work and experience to the world.
 
-![License](https://img.shields.io/github/license/SyedEshaan-ctrl/Portfolio)
-![GitHub stars](https://img.shields.io/github/stars/SyedEshaan-ctrl/Portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/SyedEshaan-ctrl/Portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/SyedEshaan-ctrl/Portfolio)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/SyedEshaan-ctrl/Portfolio)
-![GitHub last commit](https://img.shields.io/github/last-commit/SyedEshaan-ctrl/Portfolio)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-## 📋 Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
-- [Acknowledgments](#acknowledgments)
-
-## About
-
-This portfolio website is designed to be a clean and professional showcase of my skills, projects, and experience. It's built using HTML, CSS, and JavaScript, providing a responsive and engaging user experience.
-
-The primary goal is to provide potential employers and collaborators with a clear understanding of my capabilities and accomplishments. The site is structured to be easily navigable, allowing visitors to quickly find the information they need. It serves as a central hub for my professional online presence.
-
-Key technologies used include HTML for structure, CSS for styling, and JavaScript for interactive elements. The architecture is designed for maintainability and scalability, allowing for easy updates and additions as my career progresses. The portfolio is designed to be visually appealing and user-friendly, ensuring a positive experience for all visitors.
-
-## ✨ Features
-
-- 🎯 **Project Showcase**: Detailed descriptions and visuals of my key projects.
-- ⚡ **Responsive Design**: Optimized for viewing on various devices (desktops, tablets, and mobile phones).
-- 🎨 **Clean UI/UX**: A modern and intuitive design for easy navigation.
-- 📱 **Mobile-Friendly**: Ensures a consistent experience across all screen sizes.
-- 🛠️ **Customizable**: Easily adaptable to reflect personal branding and style.
-
-## 🎬 Demo
-
-🔗 **Live Demo**: [https://syedeshaan-ctrl.github.io/Portfolio/](https://syedeshaan-ctrl.github.io/Portfolio/)
-
-### Screenshots
-![Main Interface](screenshots/main-interface.png)
-*Home page showing a brief introduction and navigation options.*
-
-![Projects Section](screenshots/projects-section.png)
-*Projects section displaying various projects with descriptions and links.*
 
 ## 🚀 Quick Start
 
