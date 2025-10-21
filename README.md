@@ -75,22 +75,11 @@ Contributions are welcome! Please follow these steps:
 4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
 5. 🔃 Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ### License Summary
 - ✅ Commercial use
 - ✅ Modification
 - ✅ Distribution
 - ✅ Private use
-- ❌ Liability
-- ❌ Warranty
-
-## 💬 Support
-
-- 📧 **Email**: syed.eshaan.ctrl@gmail.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/SyedEshaan-ctrl/Portfolio/issues)
 
 ## 🙏 Acknowledgments
 
