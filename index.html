@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eshaan - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #001d3d;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 80px;
+        background-color: #003566;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 20px;
+      }
+
+      .left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .left img {
+        border-radius: 50%;
+        height: 53px;
+        width: 53px;
+      }
+
+      .first {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 106.5px 0;
+      }
+
+      .first > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 1.8rem;
+      }
+      
+
+      .leftSection .btn {
+        margin: 40px 0px;
+        padding: 10px;
+        background: #5053c5;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        color: #ffd60a;
+        cursor: pointer;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: #ffc300;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        transition: text-shadow 0.3s ease;
+      }
+      nav ul li a:hover {
+        text-decoration: none;
+        text-shadow: 0 0 5px #ffd60a, 0 0 10px #ffd60a, 0 0 20px #ffd60a;
+      }
+
+      #element {
+        color: #ffd60a;
+      }
+
+      .second {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      main hr {
+        border: 0;
+        background: #ffd60a;
+        height: 2px;
+        margin: 40px 70px;
+      }
+      .second h1 {
+        font-size: 1.6rem;
+      }
+
+      .text-grey {
+        color: grey;
+        font-size: 1.2rem;
+        font-style: italic;
+      }
+
+      .second .box {
+        display: flex;
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+      }
+
+      .second .vertical {
+        height: 93px;
+        width: 2px;
+        background: white;
+        margin: 0px 100px;
+      }
+
+      .image-top {
+        position: relative;
+        width: 20px;
+        top: -27px;
+        left: -8px;
+      }
+
+      .vertical-text {
+        position: relative;
+        right: 45px;
+        top: 63px;
+        width: 150px;
+        font-size: 14px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 62px;
+        right: 44px;
+        color: grey;
+        width: 150px;
+        font-size: 0.4rem;
+      }
+
+      footer {
+        background-color: #1f4788;
+      }
+
+      .footer {
+        display: flex;
+        padding: 23px 123px;
+        justify-content: space-evenly;
+      }
+      .footer > div {
+        width: 253px;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <!-- <img src="logo.jpg" alt="Logo" height="50px" /> -->
+          Eshaan's Portfolio
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first">
+        <div class="leftSection">
+          Hi my name is <span class="purple"> Eshaan </span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Resume</button>
+            <button class="btn">Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="developer.png" alt="Developer" />
+        </div>
+      </section>
+      <hr />
+      <section class="second">
+        <span class="text-grey">My work </span>
+        <h1>Work Experiences and Projects</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="Project 1" />
+            <div class="vertical-text">WEB Developer (2023 - Present)</div>
+            <div class="vertical-desc">
+              Developed and maintained multiple web applications using modern
+              frameworks and technologies.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="nodejs.png" alt="Project 2" />
+            <div class="vertical-text">Node.js Developer (2024 - Present)</div>
+            <div class="vertical-desc">
+              Working on building scalable web applications using Node.js and
+              Express.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="full stack.png" alt="Project 2" />
+            <div class="vertical-text">
+              Full Stack Developer (2025 - Present)
+            </div>
+            <div class="vertical-desc">
+              Created end-to-end web solutions using MERN stack for various
+              clients.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="web3.png" alt="Project 2" />
+            <div class="vertical-text">
+              Web3 Solana Developer (2024 - Present)
+            </div>
+            <div class="vertical-desc">
+              Building decentralized applications on the Solana blockchain using
+              Web3 technologies.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="architect.png" alt="Project 2" />
+            <div class="vertical-text">Software Architect (2024 - Present)</div>
+            <div class="vertical-desc">
+              Designing and overseeing the architecture of complex software
+              systems.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="ai.png" alt="Project 2" />
+            <div class="vertical-text">AI Engineer (2024 - Present)</div>
+            <div class="vertical-desc">
+              Building intelligent applications using machine learning and AI
+              technologies.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Eshaan's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; www.eshaanport.com | All Rights Reserved 2025
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Software Developer",
+          "Web Developer",
+          "ML Enthusiast",
+          "Problem Solver",
+        ],
+        loop: true,
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
